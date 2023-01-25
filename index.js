@@ -5,7 +5,9 @@ const Engineer= require('./lib/Engineer');
 const Intern=require('./lib/Intern');
 const generateHTML = require('./src/generateHTML');
 
+
 const ArrayOfTeamMembers=[];
+
 
 const addManager=()=>{
     return inquirer.prompt([{
@@ -21,6 +23,7 @@ const addManager=()=>{
             }
         }
     },
+                            
     {
         type: 'input',
         name: 'id',
