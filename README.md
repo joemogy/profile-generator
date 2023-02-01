@@ -10,10 +10,6 @@ by following all the instructions I am able to done this task and in this task I
 ![Screenshot](profilegenerator.png)
 
 <img width="" alt="Screenshot" src="profilegenerator.png">
-
-<img width="" alt="Screenshot" src="profilegenerator.png">
-
-
 # Demonstration:
 demonstration.mkv
 https://youtu.be/P_-0xLVpGC8
