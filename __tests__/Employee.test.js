@@ -1,14 +1,26 @@
-const Employee = require("../lib/employee")
+const Employee = require('../lib/Employee')
 
-test("Create an employee", ()=>{
-    const employee= new Employee("joseph",10,"joseph.mogavero@hotmail.com");
+describe('Employee', () => {
+    
+    //passes
+    it("getName returns name", () => {
+        expect(new Employee("Charles").getName()).toBe("Charles");
+    });
 
-    expect(employee.name).toEqual(expect.any(String));
-    expect(employee.id).toEqual(expect.any(Number));
-    expect(employee.emailaddress).toEqual(expect.any(String));
+    //passes
+    it("getId returns id", () => {
+        expect(new Employee("Charles", "123").getId()).toBe("123");
+    });
 
-    expect(employee.getName()).toEqual(expect.any(String));
-    expect(employee.getId()).toEqual(expect.any(Number));
-    expect(employee.getEmailAddress()).toEqual(expect.any(String));
-    expect(employee.getRole()).toEqual("Employee");
-}) 
+    //passes
+    it("getEmail returns email address", () => {
+        expect(new Employee("Charles", "123", "cdfishe1@mail.com").getEmail()).toBe("cdfishe1@mail.com");
+    });
+
+    //passes
+    it("getRole returns role", () => {
+        expect(new Employee("Employee").getRole()).toBe("Employee");
+    });
+
+
+})
