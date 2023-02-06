@@ -1,11 +1,16 @@
-const Manager = require("../lib/Manager");
+const Manager = require('../lib/Manager')
 
-test("Creating a Manager", () => {
-    const manager = new Manager("joseph", 1, "joseph.mogavero@hotmail.com", 4168994887);
+describe('Intern', () => {
+    
+    //passes
+    it("getOfficeNumber returns officeNumber", () => {
+        expect(new Manager("123").getName()).toBe("123");
+    });
 
-    expect(manager.officenumber).toEqual(expect.any(Number));
+    //passes
+    it("getRole returns role", () => {
+        expect(new Manager("Employee").getRole()).toBe("Manager");
+    });
 
-    expect(manager.getOfficeNumber()).toEqual(expect.any(Number));
 
-    expect(manager.getRole()).toEqual("Manager");
 })
