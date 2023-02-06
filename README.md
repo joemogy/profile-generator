@@ -6,6 +6,14 @@ This is the 10th challenge that were given to us by the University Of Toronto in
 # Completed
 by following all the instructions I am able to done this task and in this task I have completed the code by writing the js and by installing the node library and by testing it.
 
+# Getting started
+-download repo 
+-git bash in repo
+-npm i 
+-install dependencies
+-npm run start
+-start the node app
+
 # Demonstration:
 demonstration.mkv
 https://youtu.be/P_-0xLVpGC8
