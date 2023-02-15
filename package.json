@@ -19,9 +19,9 @@
   "author": "Joseph Mogavero",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joemogy/team-generator/issues"
+    "url": "https://github.com/joemogy/team-generator"
   },
-  "homepage": "https://github.com/joemogy/team-generator#readme",
+  "homepage": "https://github.com/joemogy/team-generator",
 
   "dependencies": {
     "inquirer": "^8.2.4"
