@@ -1,7 +1,7 @@
 {
   "name": "team-generator",
   "version": "1.0.0",
-  "description": "app that prompts user for information on a development team consisting of manager, engineers, and interns, and returns an html page displaying that information.",
+  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib",
