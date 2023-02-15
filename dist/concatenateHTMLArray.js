@@ -42,5 +42,5 @@ const concatenateHTMLArray = (data) => {
                 </div>
             </div>`;
 }
-
+// export module 
 module.exports = concatenateHTMLArray;
