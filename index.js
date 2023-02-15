@@ -1,9 +1,9 @@
-// Import Classes
+//  Classes to Import
 const Employee = require('./lib/Employee');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
-// Import packages
+//  packages to Import
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { data } = require('browserslist');
@@ -23,7 +23,7 @@ const renderHTMLTail = require('./dist/renderHTMLTail');
 //         managerPromt();
 //     })
 // };
-
+// add manager
 const managerPromt = () => {
     return inquirer.prompt([
         {
@@ -52,7 +52,7 @@ const managerPromt = () => {
         teamMemberPromt();
     })
 };
-
+// add team member
 const teamMemberPromt = () => {
     return inquirer.prompt([
         {
@@ -72,7 +72,7 @@ const teamMemberPromt = () => {
         }
     })
 };
-
+// add engineer
 const engineerPrompt = () => {
     return inquirer.prompt([
         {
@@ -100,7 +100,7 @@ const engineerPrompt = () => {
         teamMemberPromt();
     })
 };
-
+// add intern
 const internPrompt = () => {
     return inquirer.prompt([
         {
