@@ -1,3 +1,4 @@
+// required
 const Employee = require('../lib/Employee');
 const Manager = require('../lib/Manager');
 const Engineer = require('../lib/Engineer');
@@ -21,7 +22,7 @@ const concatenateHTMLArray = (data) => {
         employeeClass = new Intern(data.name, data.id, data.email, data.school); 
         extraInfo = `School: ${employeeClass.school}`
     }
-
+// return employee container
     return `
             <div class="employeeContainer">
                 <div class="employeeHeader">
